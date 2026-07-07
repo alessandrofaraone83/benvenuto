@@ -30,7 +30,7 @@
   font-family: "BodoniXT";
   src:
     local("BodoniXT"),
-    url("/assets/fonts/BodoniXT.ttf") format("truetype");
+    url("../assets/fonts/BodoniXT.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -40,7 +40,7 @@
   font-family: "Bodoni XT";
   src:
     local("BodoniXT"),
-    url("/assets/fonts/BodoniXT.ttf") format("truetype");
+    url("../assets/fonts/BodoniXT.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -227,7 +227,7 @@ p {
   padding: 7.5rem var(--space-3) clamp(10rem, 18vw, 16rem);
   background:
     linear-gradient(180deg, rgba(59, 36, 31, 0.12), rgba(59, 36, 31, 0.62)),
-    url("/assets/img/landing-hero.jpg") center/cover no-repeat;
+    url("../assets/img/landing-hero.jpg") center/cover no-repeat;
   box-shadow: var(--shadow-strong);
 }
 
@@ -293,7 +293,7 @@ p {
   min-height: 150px;
   margin-bottom: var(--space-3);
   border-radius: 16px;
-  background: url("/assets/img/welcome-detail.jpg") center/cover no-repeat;
+  background: url("../assets/img/welcome-detail.jpg") center/cover no-repeat;
 }
 
 .hero-preview p {
@@ -405,11 +405,11 @@ p {
 }
 
 .photo-card.detail {
-  background-image: url("/assets/img/guest-experience.jpg");
+  background-image: url("../assets/img/guest-experience.jpg");
 }
 
 .photo-card.room {
-  background-image: url("/assets/img/macaluhome-hero.jpg");
+  background-image: url("../assets/img/macaluhome-hero.jpg");
 }
 
 .intro-stats div {
