@@ -1,0 +1,163 @@
+{
+  "slug": "macaluhome",
+  "nome": "Macalù Home",
+  "payoff": "Your slow stay in Salento",
+  "descrizione": "Una casa vacanze accogliente a San Cataldo, a pochi passi dal mare e a pochi chilometri da Lecce.",
+  "benvenuto": "Benvenuti a Macalù Home. Qui trovate le informazioni principali per vivere il soggiorno con tranquillità, dal Wi-Fi ai consigli in zona.",
+  "heroImage": "/assets/img/macaluhome-hero.jpg",
+  "logo": "",
+  "host": {
+    "nome": "Host",
+    "telefono": "+390000000000",
+    "whatsapp": "390000000000",
+    "email": "info@example.com"
+  },
+  "indirizzo": {
+    "testo": "San Cataldo, Lecce, Italia",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=San+Cataldo+Lecce+Italia"
+  },
+  "checkin": "Dalle 15:00",
+  "checkout": "Entro le 10:00",
+  "wifi": {
+    "rete": "MacaluHome_WiFi",
+    "password": "password-demo"
+  },
+  "parcheggio": "Parcheggio disponibile in zona secondo disponibilità.",
+  "regole": [
+    "Non fumare all’interno della casa.",
+    "Rispettare gli orari di silenzio.",
+    "Non organizzare feste o eventi non autorizzati.",
+    "Avere cura degli ambienti e degli arredi.",
+    "Seguire le indicazioni per la raccolta differenziata."
+  ],
+  "istruzioniCasa": [
+    {
+      "titolo": "Aria condizionata",
+      "testo": "Usare con porte e finestre chiuse. Spegnere prima di uscire."
+    },
+    {
+      "titolo": "Lavatrice",
+      "testo": "Disponibile per gli ospiti. Non sovraccaricare il cestello."
+    },
+    {
+      "titolo": "Cucina",
+      "testo": "Lasciare stoviglie e piano cottura puliti dopo l’utilizzo."
+    },
+    {
+      "titolo": "TV",
+      "testo": "Usare il telecomando principale per accensione e volume. Lasciare i dispositivi collegati come trovati."
+    },
+    {
+      "titolo": "Raccolta differenziata",
+      "testo": "Seguire il calendario indicato in casa e usare i contenitori dedicati."
+    }
+  ],
+  "zona": {
+    "descrizione": "San Cataldo è la marina di Lecce: ideale per chi vuole vivere il mare e raggiungere il centro storico in pochi minuti."
+  },
+  "consigli": {
+    "ristoranti": [
+      {
+        "nome": "Ristorante sul mare",
+        "descrizione": "Cucina locale e piatti di pesce in atmosfera informale.",
+        "distanza": "5 min",
+        "mapsUrl": "https://www.google.com/maps"
+      },
+      {
+        "nome": "Trattoria salentina",
+        "descrizione": "Piatti tipici, paste fresche e ricette della tradizione.",
+        "distanza": "12 min",
+        "mapsUrl": "https://www.google.com/maps"
+      }
+    ],
+    "bar": [
+      {
+        "nome": "Bar per colazione",
+        "descrizione": "Ideale per caffè, cornetti e colazioni veloci.",
+        "distanza": "3 min",
+        "mapsUrl": "https://www.google.com/maps"
+      }
+    ],
+    "spiagge": [
+      {
+        "nome": "Spiaggia di San Cataldo",
+        "descrizione": "Spiaggia vicina alla struttura, comoda per una giornata semplice al mare.",
+        "distanza": "5 min",
+        "mapsUrl": "https://www.google.com/maps"
+      },
+      {
+        "nome": "Torre Chianca",
+        "descrizione": "Litorale sabbioso e mare basso, consigliato nelle giornate calme.",
+        "distanza": "15 min",
+        "mapsUrl": "https://www.google.com/maps"
+      }
+    ],
+    "supermercati": [
+      {
+        "nome": "Market San Cataldo",
+        "descrizione": "Piccolo market per spesa quotidiana e prodotti essenziali.",
+        "distanza": "4 min",
+        "mapsUrl": "https://www.google.com/maps"
+      }
+    ],
+    "farmacie": [
+      {
+        "nome": "Farmacia di zona",
+        "descrizione": "Farmacia più vicina alla marina. Verificare gli orari prima di andare.",
+        "distanza": "5 min",
+        "mapsUrl": "https://www.google.com/maps"
+      }
+    ],
+    "luoghi": [
+      {
+        "nome": "Lecce centro storico",
+        "descrizione": "Barocco, vicoli, piazze e ristoranti tipici.",
+        "distanza": "15 min",
+        "mapsUrl": "https://www.google.com/maps"
+      },
+      {
+        "nome": "Otranto",
+        "descrizione": "Centro storico sul mare, castello e passeggiata panoramica.",
+        "distanza": "35 min",
+        "mapsUrl": "https://www.google.com/maps"
+      }
+    ]
+  },
+  "checkoutInfo": {
+    "orario": "Entro le 10:00",
+    "azioni": [
+      "Spegnere luci e aria condizionata.",
+      "Chiudere porte e finestre.",
+      "Portare via i rifiuti secondo le istruzioni.",
+      "Controllare di non dimenticare oggetti personali."
+    ],
+    "chiavi": "Lasciare le chiavi secondo le indicazioni ricevute dall’host.",
+    "messaggio": "Grazie per aver scelto Macalù Home. Speriamo di rivederti presto in Salento."
+  },
+  "numeriUtili": [
+    {
+      "nome": "Host",
+      "telefono": "+390000000000"
+    },
+    {
+      "nome": "Emergenze",
+      "telefono": "112"
+    },
+    {
+      "nome": "Guardia medica",
+      "telefono": "+390000000000"
+    },
+    {
+      "nome": "Farmacia",
+      "telefono": "+390000000000"
+    },
+    {
+      "nome": "Taxi/Transfer",
+      "telefono": "+390000000000"
+    }
+  ],
+  "social": {
+    "instagram": "",
+    "sito": ""
+  }
+}

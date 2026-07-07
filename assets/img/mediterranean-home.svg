@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-label="Casa mediterranea vicino al mare">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#8fc9d8"/>
+      <stop offset=".58" stop-color="#f3eadb"/>
+      <stop offset="1" stop-color="#d9c4a2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#sky)"/>
+  <circle cx="1270" cy="210" r="96" fill="#fff3c9" opacity=".92"/>
+  <path d="M0 720 C240 650 440 700 650 655 C930 595 1130 640 1600 555 L1600 1100 L0 1100 Z" fill="#4f9bb0"/>
+  <path d="M0 800 C310 735 540 800 820 745 C1085 693 1310 735 1600 668 L1600 1100 L0 1100 Z" fill="#2f7589" opacity=".86"/>
+  <path d="M240 610 L620 420 L1000 610 L1000 890 L240 890 Z" fill="#fffdf8"/>
+  <path d="M190 620 L620 365 L1050 620 L1000 650 L620 455 L240 650 Z" fill="#7f9b82"/>
+  <rect x="360" y="690" width="150" height="200" rx="6" fill="#2c565d"/>
+  <rect x="620" y="685" width="255" height="125" rx="8" fill="#8fc9d8"/>
+  <rect x="652" y="708" width="78" height="82" fill="#fffdf8" opacity=".7"/>
+  <rect x="765" y="708" width="78" height="82" fill="#fffdf8" opacity=".7"/>
+  <path d="M160 890 H1110 C1235 890 1335 950 1405 1100 H0 C28 985 82 920 160 890 Z" fill="#f3eadb"/>
+  <path d="M1180 620 C1135 710 1120 800 1140 905" stroke="#375f43" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <path d="M1160 625 C1070 570 1005 520 960 455 C1050 458 1140 505 1195 590 Z" fill="#7f9b82"/>
+  <path d="M1205 618 C1295 560 1375 532 1450 525 C1405 600 1320 650 1220 675 Z" fill="#7f9b82"/>
+  <path d="M1195 580 C1195 490 1215 420 1265 365 C1305 455 1295 545 1220 625 Z" fill="#8fb28f"/>
+</svg>
