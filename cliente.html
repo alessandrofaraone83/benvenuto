@@ -6,7 +6,13 @@
     <meta name="robots" content="noindex, nofollow">
     <meta name="description" content="Guida digitale privata per ospiti.">
     <title>Guida ospiti | Benvenuto Digitale</title>
-    <link rel="stylesheet" href="/css/style.css?v=20260706-3">
+    <script>
+      (function () {
+        var assetBase = window.location.protocol === "file:" ? "" : "/";
+        window.__benvenutoAssetBase = assetBase;
+        document.write('<link rel="stylesheet" href="' + assetBase + 'css/style.css?v=20260706-3">');
+      })();
+    </script>
   </head>
   <body class="client-page">
     <main id="app" aria-live="polite">
@@ -15,6 +21,14 @@
         <h1>Caricamento guida...</h1>
       </section>
     </main>
-    <script src="/js/app.js" defer></script>
+    <script>
+      (function () {
+        var assetBase = window.__benvenutoAssetBase || (window.location.protocol === "file:" ? "" : "/");
+        var script = document.createElement("script");
+        script.src = assetBase + "js/app.js";
+        script.defer = true;
+        document.body.appendChild(script);
+      })();
+    </script>
   </body>
 </html>
