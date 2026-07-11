@@ -727,6 +727,41 @@ p {
   box-shadow: var(--shadow-strong);
 }
 
+.language-switcher {
+  position: absolute;
+  z-index: 4;
+  top: var(--space-3);
+  right: var(--space-3);
+  display: inline-flex;
+  max-width: calc(100% - (var(--space-3) * 2));
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.35rem;
+  border: 1px solid rgba(255, 250, 244, 0.22);
+  border-radius: 999px;
+  background: rgba(59, 36, 31, 0.34);
+  box-shadow: var(--shadow-strong);
+  backdrop-filter: blur(14px);
+}
+
+.language-button {
+  min-width: 42px;
+  min-height: 38px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: rgba(255, 250, 244, 0.78);
+  cursor: pointer;
+  font-family: var(--font-base);
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.language-button.is-active {
+  background: var(--color-cream-deep);
+  color: var(--color-ink);
+}
+
 .client-hero-inner {
   position: relative;
   z-index: 2;
@@ -742,6 +777,13 @@ p {
 .client-hero-copy {
   max-width: 720px;
   min-width: 0;
+}
+
+.client-logo {
+  width: clamp(92px, 14vw, 140px);
+  height: auto;
+  margin-bottom: var(--space-3);
+  filter: drop-shadow(0 14px 32px rgba(0, 0, 0, 0.28));
 }
 
 .client-hero h1 {
@@ -803,7 +845,8 @@ p {
 .quick-grid,
 .instructions-grid,
 .tips-grid,
-.numbers-grid {
+.numbers-grid,
+.client-photo-grid {
   display: grid;
   gap: var(--space-3);
 }
@@ -819,6 +862,37 @@ p {
 .client-hero-card {
   min-width: 0;
   overflow-wrap: anywhere;
+}
+
+.client-photo-card {
+  display: grid;
+  overflow: hidden;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  background: var(--color-milk);
+  box-shadow: var(--shadow);
+}
+
+.client-photo-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.client-photo-card div {
+  padding: var(--space-4);
+}
+
+.client-photo-card h2 {
+  margin-bottom: var(--space-2);
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  font-weight: 400;
+  line-height: 1.04;
+}
+
+.client-photo-card p {
+  margin-bottom: 0;
 }
 
 .info-label {
@@ -912,6 +986,13 @@ p {
   background: var(--color-ink);
   color: var(--color-white);
   text-align: center;
+}
+
+.client-footer-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: var(--space-3);
+  filter: drop-shadow(0 18px 38px rgba(0, 0, 0, 0.22));
 }
 
 .client-footer p {
@@ -1013,6 +1094,10 @@ p {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .client-photo-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .tips-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1060,5 +1145,11 @@ p {
   .button {
     width: 100%;
     white-space: normal;
+  }
+
+  .language-switcher {
+    left: var(--space-3);
+    right: var(--space-3);
+    justify-content: center;
   }
 }
