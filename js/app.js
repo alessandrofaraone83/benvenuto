@@ -208,7 +208,9 @@ function renderClient(data, locale = chooseLocale(data)) {
   const heroImage = assetUrl(data.assets?.heroImage || content.heroImage || "");
   const logo = data.assets?.logo ? assetUrl(data.assets.logo) : "";
   const phone = data.host?.telefonoDisplay || data.host?.telefono || "";
-  const telHref = `tel:${normalizePhone(data.host?.telefono || phone)}`;
+  const telHref = data.host?.telefono ? `tel:${normalizePhone(data.host.telefono)}` : "";
+  const hostValue = phone ? `${data.host?.nome || "Host"} · ${phone}` : data.host?.nome || "Host";
+  const whatsappHref = data.host?.whatsapp ? `https://wa.me/${data.host.whatsapp}` : "";
   const mailHref = data.host?.email ? `mailto:${data.host.email}` : "";
 
   document.documentElement.lang = content.htmlLang || locale;
@@ -226,7 +228,7 @@ function renderClient(data, locale = chooseLocale(data)) {
           <p class="lead">${escapeHtml(content.descrizione)}</p>
           <p>${escapeHtml(content.benvenuto || "")}</p>
           <div class="hero-actions">
-            ${link(`https://wa.me/${data.host?.whatsapp || ""}`, labels.whatsapp || "WhatsApp host", "button button-primary")}
+            ${link(whatsappHref, labels.whatsapp || "WhatsApp host", "button button-primary")}
             ${link(data.indirizzo?.mapsUrl, labels.maps || "Google Maps", "button button-secondary")}
           </div>
         </div>
@@ -250,9 +252,9 @@ function renderClient(data, locale = chooseLocale(data)) {
         ${renderInfoCard(labels.wifi || "Wi-Fi", data.wifi?.rete)}
         ${renderInfoCard(labels.address || "Indirizzo", data.indirizzo?.testo)}
         ${renderInfoCard(labels.parking || "Parcheggio", content.parcheggio)}
-        ${renderInfoCard(labels.host || "Contatto host", `${data.host?.nome || "Host"} · ${phone}`, telHref)}
-        ${renderInfoCard(labels.phone || "Telefono", phone, telHref)}
-        ${renderInfoCard(labels.email || "Email", data.host?.email, mailHref)}
+        ${renderInfoCard(labels.host || "Contatto host", hostValue, telHref)}
+        ${phone ? renderInfoCard(labels.phone || "Telefono", phone, telHref) : ""}
+        ${data.host?.email ? renderInfoCard(labels.email || "Email", data.host.email, mailHref) : ""}
       </div>
     </section>
 

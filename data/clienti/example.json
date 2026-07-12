@@ -1,0 +1,1097 @@
+{
+  "slug": "example",
+  "nome": "Macalù Home Example",
+  "payoff": "Demo guida ospiti",
+  "defaultLocale": "it",
+  "supportedLocales": [
+    "it",
+    "en",
+    "fr",
+    "de",
+    "es"
+  ],
+  "assets": {
+    "heroImage": "/assets/img/macaluhome/hero.jpg",
+    "logo": "/assets/img/macaluhome/logo.png",
+    "welcomeImage": "/assets/img/macaluhome/welcome.jpg",
+    "homeImage": "/assets/img/macaluhome/bedroom.jpg"
+  },
+  "host": {
+    "nome": "Host demo",
+    "telefono": "",
+    "telefonoDisplay": "",
+    "whatsapp": "",
+    "email": ""
+  },
+  "indirizzo": {
+    "testo": "San Cataldo, Lecce - indirizzo completo oscurato nella demo",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=San%20Cataldo%20Lecce"
+  },
+  "wifi": {
+    "rete": "Rete Wi-Fi demo",
+    "password": "password-demo"
+  },
+  "social": {},
+  "locales": {
+    "it": {
+      "htmlLang": "it",
+      "title": "Guida ospiti demo",
+      "descrizione": "Situata nella splendida località di San Cataldo, Macalù Home è pronta ad accoglierti con le sue comodità e il suo fascino unico. A soli 700 metri dal mare cristallino e a 13 km dal centro di Lecce, offre una posizione ideale per esplorare le meraviglie della zona. Questa casa incantevole vanta un cortile privato con giochi per bambini, offrendo un'esperienza ideale per le famiglie in cerca di relax e divertimento.",
+      "benvenuto": "Benvenuti nella demo di Macalù Home. Questa pagina mostra come appare una guida digitale per ospiti, con contatti, indirizzo preciso e password Wi-Fi sostituiti da dati dimostrativi.",
+      "checkin": "Dalle 16:00",
+      "checkout": "Entro le 10:00",
+      "parcheggio": "Parcheggio in strada gratuito.",
+      "heroCardTitle": "Informazioni rapide",
+      "quickInfoTitle": "Informazioni rapide",
+      "wifiTitle": "Wi-Fi",
+      "rulesTitle": "Regole della casa",
+      "instructionsTitle": "Come usare la casa",
+      "locationTitle": "Dove siamo",
+      "tipsTitle": "Consigli in zona",
+      "checkoutTitle": "Prima del check-out",
+      "numbersTitle": "Numeri utili",
+      "footerMessage": "Questa è una pagina esempio con dati sensibili oscurati.",
+      "labels": {
+        "checkin": "Check-in",
+        "checkout": "Check-out",
+        "wifi": "Wi-Fi",
+        "wifiNetwork": "Rete Wi-Fi demo",
+        "address": "Indirizzo",
+        "parking": "Parcheggio",
+        "host": "Contatto host demo",
+        "phone": "Telefono",
+        "email": "Email",
+        "copyPassword": "Copia password",
+        "passwordCopied": "Password copiata",
+        "copyFallback": "Seleziona e copia manualmente la password",
+        "whatsapp": "WhatsApp host",
+        "maps": "Google Maps",
+        "openLink": "Apri link",
+        "officialSite": "Sito ufficiale"
+      },
+      "mediaSections": [
+        {
+          "asset": "welcomeImage",
+          "title": "Un benvenuto semplice, caldo e salentino",
+          "text": "Una casa pensata per rallentare, condividere momenti in veranda e vivere il soggiorno con calma.",
+          "alt": "Tavola apparecchiata con prodotti locali a Macalù Home"
+        },
+        {
+          "asset": "homeImage",
+          "title": "Comfort essenziale per riposare bene",
+          "text": "Ambienti curati, biancheria pronta e tutto il necessario per sentirsi subito a casa.",
+          "alt": "Camera da letto preparata per gli ospiti di Macalù Home"
+        }
+      ],
+      "regole": [
+        "Ogni ospite dovrà essere obbligatoriamente registrato presso la questura del comune di appartenenza. La mancata preventiva registrazione potrà compromettere l'ingresso degli ospiti nell'appartamento.",
+        "È consentito fumare solo ed esclusivamente sui balconi e negli spazi esterni dell'appartamento.",
+        "Per piatti e stoviglie lasciati sporchi al check-out verrà addebitato un supplemento di 50 euro. Per la spazzatura non buttata al check-out verrà addebitato un supplemento di 50 euro.",
+        "Nella prenotazione è incluso un set completo di biancheria e un tris di asciugamani per ciascun ospite. Non sono previsti ulteriori cambi nel prezzo base. Se desiderate più biancheria, è disponibile su richiesta al costo aggiuntivo di 10 euro per ospite."
+      ],
+      "istruzioniCasa": [
+        {
+          "titolo": "Aria condizionata",
+          "testo": "Non ci sono limitazioni particolari. Vi chiediamo, se possibile, di non lasciarla accesa quando non siete in casa."
+        },
+        {
+          "titolo": "Cucina",
+          "testo": "Usate liberamente cucina, piano cottura e stoviglie. Dopo l'utilizzo, lasciate puliti il piano di lavoro, il lavello e le stoviglie principali."
+        },
+        {
+          "titolo": "Lavatrice",
+          "testo": "La lavatrice è a disposizione degli ospiti. Usatela con carichi adeguati e controllate di non lasciare indumenti nel cestello a fine ciclo."
+        },
+        {
+          "titolo": "TV",
+          "testo": "Usate il telecomando con cura e lasciate i dispositivi collegati come li avete trovati. In caso di problemi, contattateci."
+        },
+        {
+          "titolo": "Raccolta differenziata",
+          "testo": "Effettuate la raccolta differenziata dei rifiuti utilizzando gli appositi contenitori in dotazione."
+        },
+        {
+          "titolo": "Impianto elettrico",
+          "testo": "Evitate di accendere simultaneamente più elettrodomestici come aria condizionata, piano cottura a induzione, forno microonde, lavatrice o asciugacapelli, così da evitare interruzioni di energia per sovraccarico."
+        },
+        {
+          "titolo": "Orario del silenzio",
+          "testo": "Le regole condominiali impongono l'osservanza del silenzio dalle 15:00 alle 17:00 e dalle 23:00 alle 07:00."
+        }
+      ],
+      "zona": {
+        "descrizione": "La posizione mostrata è indicativa. Nella guida reale gli ospiti visualizzano indirizzo completo e indicazioni precise."
+      },
+      "categoryLabels": {
+        "ristoranti": "Ristoranti",
+        "bar": "Bar e colazioni",
+        "spiagge": "Spiagge",
+        "supermercati": "Supermercati",
+        "farmacie": "Farmacie",
+        "luoghi": "Luoghi da visitare"
+      },
+      "consigli": {
+        "ristoranti": [
+          {
+            "nome": "Ristorante York / Lido York",
+            "descrizione": "Ristorante sul mare con cucina mediterranea e piatti di pesce.",
+            "distanza": "San Cataldo",
+            "url": "https://www.lidoyork.it/ristorante/"
+          },
+          {
+            "nome": "Maremosso",
+            "descrizione": "Osteria di pesce a San Cataldo.",
+            "distanza": "San Cataldo",
+            "url": "https://www.tripadvisor.it/Restaurant_Review-g1179337-d6676147-Reviews-Maremosso-San_Cataldo_Province_of_Lecce_Puglia.html"
+          },
+          {
+            "nome": "La Casa Blanca - Fish, Wine & Friends",
+            "descrizione": "Ristorante di pesce e trattoria di mare.",
+            "distanza": "San Cataldo",
+            "url": "https://lacasablanca.eatbu.com/"
+          },
+          {
+            "nome": "Ristorante Porto Adriano",
+            "descrizione": "Ristorante di pesce consigliato in zona.",
+            "distanza": "San Cataldo",
+            "url": "https://portoadriano.it/"
+          }
+        ],
+        "bar": [
+          {
+            "nome": "Pasticceria Nobile",
+            "descrizione": "Colazione, pasticceria e gelateria.",
+            "distanza": "San Cataldo",
+            "url": "https://www.tripadvisor.it/Restaurant_Review-g1179337-d3452856-Reviews-Pasticceria_Nobile-San_Cataldo_Province_of_Lecce_Puglia.html"
+          }
+        ],
+        "spiagge": [
+          {
+            "nome": "Lido Soleluna",
+            "descrizione": "Stabilimento balneare a San Cataldo.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/soleluna.lido/?locale=it_IT"
+          },
+          {
+            "nome": "Lido Turrisi",
+            "descrizione": "Lido consigliato per una giornata al mare.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/lidoturrisi/?locale=it_IT"
+          },
+          {
+            "nome": "Lido Pevero",
+            "descrizione": "Spiaggia attrezzata in zona.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/p/Lido-Pevero-Beach-100054544355712/?locale=it_IT"
+          }
+        ],
+        "supermercati": [
+          {
+            "nome": "Blu Market Margherita Conad",
+            "descrizione": "Supermercato per la spesa quotidiana.",
+            "distanza": "San Cataldo",
+            "url": "https://share.google/eUWesuGWoqXmHPr0S"
+          }
+        ],
+        "farmacie": [
+          {
+            "nome": "Farmacia di turno",
+            "descrizione": "Consulta il servizio per verificare la farmacia disponibile.",
+            "distanza": "Zona Lecce / San Cataldo",
+            "url": "https://www.farmaciediturno.org/farmacia.asp?idf=-1011"
+          }
+        ],
+        "luoghi": [
+          {
+            "nome": "Lecce",
+            "descrizione": "Centro storico barocco, vicoli, piazze e ristoranti tipici.",
+            "distanza": "13 km"
+          },
+          {
+            "nome": "Otranto",
+            "descrizione": "Borgo sul mare con centro storico, castello e passeggiata panoramica.",
+            "distanza": "Da visitare"
+          },
+          {
+            "nome": "Gallipoli",
+            "descrizione": "Centro storico sul mare, spiagge e atmosfera vivace.",
+            "distanza": "Da visitare"
+          }
+        ]
+      },
+      "checkoutInfo": {
+        "orario": "Entro le 10:00",
+        "azioni": [
+          "Radunare gli asciugamani usati.",
+          "Buttare la spazzatura.",
+          "Spegnere luci, aria condizionata ed elettrodomestici.",
+          "Controllare di non dimenticare oggetti personali."
+        ],
+        "chiavi": "Seguire le indicazioni comunicate dall'host per la restituzione delle chiavi.",
+        "messaggio": "Grazie per aver scelto Macalù Home. Speriamo di rivedervi presto in Salento."
+      },
+      "numeriUtili": [
+        {
+          "nome": "Emergenze",
+          "telefono": "112"
+        },
+        {
+          "nome": "Emergenza medica nazionale",
+          "telefono": "118"
+        },
+        {
+          "nome": "Vigili del Fuoco",
+          "telefono": "115"
+        }
+      ]
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Guest guide demo",
+      "descrizione": "Located in the beautiful seaside area of San Cataldo, Macalù Home welcomes you with comfort and a relaxed Mediterranean atmosphere. Just 700 metres from the sea and 13 km from the centre of Lecce, it is an ideal base for exploring the area. The home also has a private courtyard with children's games, making it a lovely choice for families looking for rest and easy moments together.",
+      "benvenuto": "Welcome to the Macalù Home demo. This page shows how a digital guest guide looks, with contacts, exact address and Wi-Fi password replaced by example details.",
+      "checkin": "From 4:00 PM",
+      "checkout": "By 10:00 AM",
+      "parcheggio": "Free street parking.",
+      "heroCardTitle": "Quick information",
+      "quickInfoTitle": "Quick information",
+      "wifiTitle": "Wi-Fi",
+      "rulesTitle": "House rules",
+      "instructionsTitle": "How to use the home",
+      "locationTitle": "Where we are",
+      "tipsTitle": "Local tips",
+      "checkoutTitle": "Before check-out",
+      "numbersTitle": "Useful numbers",
+      "footerMessage": "This is an example page with sensitive details hidden.",
+      "labels": {
+        "checkin": "Check-in",
+        "checkout": "Check-out",
+        "wifi": "Wi-Fi",
+        "wifiNetwork": "Demo Wi-Fi network",
+        "address": "Address",
+        "parking": "Parking",
+        "host": "Demo host contact",
+        "phone": "Phone",
+        "email": "Email",
+        "copyPassword": "Copy password",
+        "passwordCopied": "Password copied",
+        "copyFallback": "Select and copy the password manually",
+        "whatsapp": "WhatsApp host",
+        "maps": "Google Maps",
+        "openLink": "Open link",
+        "officialSite": "Official website"
+      },
+      "mediaSections": [
+        {
+          "asset": "welcomeImage",
+          "title": "A warm and simple Salento welcome",
+          "text": "A home designed for slowing down, sharing time on the veranda and enjoying the stay with ease.",
+          "alt": "A table set with local products at Macalù Home"
+        },
+        {
+          "asset": "homeImage",
+          "title": "Essential comfort for a good rest",
+          "text": "Well-kept spaces, fresh linen and everything you need to feel at home right away.",
+          "alt": "Bedroom prepared for guests at Macalù Home"
+        }
+      ],
+      "regole": [
+        "Every guest must be registered with the competent police authority. If registration is not completed in advance, access to the apartment may be affected.",
+        "Smoking is allowed only on balconies and in the outdoor areas of the apartment.",
+        "A EUR 50 supplement will be charged for dishes and cookware left dirty at check-out. A EUR 50 supplement will be charged if rubbish is not disposed of at check-out.",
+        "The booking includes one full linen set and a set of three towels for each guest. No additional changes are included in the base price. Extra linen is available on request at an additional cost of EUR 10 per guest."
+      ],
+      "istruzioniCasa": [
+        {
+          "titolo": "Air conditioning",
+          "testo": "There are no specific restrictions. If possible, please do not leave it on when you are not at home."
+        },
+        {
+          "titolo": "Kitchen",
+          "testo": "You may freely use the kitchen, hob and dishes. After use, please leave the worktop, sink and main dishes clean."
+        },
+        {
+          "titolo": "Washing machine",
+          "testo": "The washing machine is available for guests. Please use suitable loads and check that no clothes are left inside after the cycle."
+        },
+        {
+          "titolo": "TV",
+          "testo": "Please use the remote control with care and leave the devices connected as you found them. Contact us if you need help."
+        },
+        {
+          "titolo": "Waste sorting",
+          "testo": "Please sort waste using the dedicated bins provided in the home."
+        },
+        {
+          "titolo": "Electrical system",
+          "testo": "Avoid using several high-consumption appliances at the same time, such as air conditioning, induction hob, microwave, washing machine or hairdryer, to prevent power interruptions due to overload."
+        },
+        {
+          "titolo": "Quiet hours",
+          "testo": "Building rules require quiet from 3:00 PM to 5:00 PM and from 11:00 PM to 7:00 AM."
+        }
+      ],
+      "zona": {
+        "descrizione": "The location shown is approximate. In the real guide, guests see the full address and precise directions."
+      },
+      "categoryLabels": {
+        "ristoranti": "Restaurants",
+        "bar": "Bars and breakfast",
+        "spiagge": "Beaches",
+        "supermercati": "Supermarkets",
+        "farmacie": "Pharmacies",
+        "luoghi": "Places to visit"
+      },
+      "consigli": {
+        "ristoranti": [
+          {
+            "nome": "Ristorante York / Lido York",
+            "descrizione": "Seaside restaurant with Mediterranean cuisine and fish dishes.",
+            "distanza": "San Cataldo",
+            "url": "https://www.lidoyork.it/ristorante/"
+          },
+          {
+            "nome": "Maremosso",
+            "descrizione": "Fish osteria in San Cataldo.",
+            "distanza": "San Cataldo",
+            "url": "https://www.tripadvisor.it/Restaurant_Review-g1179337-d6676147-Reviews-Maremosso-San_Cataldo_Province_of_Lecce_Puglia.html"
+          },
+          {
+            "nome": "La Casa Blanca - Fish, Wine & Friends",
+            "descrizione": "Fish restaurant and seaside trattoria.",
+            "distanza": "San Cataldo",
+            "url": "https://lacasablanca.eatbu.com/"
+          },
+          {
+            "nome": "Ristorante Porto Adriano",
+            "descrizione": "Recommended fish restaurant in the area.",
+            "distanza": "San Cataldo",
+            "url": "https://portoadriano.it/"
+          }
+        ],
+        "bar": [
+          {
+            "nome": "Pasticceria Nobile",
+            "descrizione": "Breakfast, pastries and ice cream.",
+            "distanza": "San Cataldo",
+            "url": "https://www.tripadvisor.it/Restaurant_Review-g1179337-d3452856-Reviews-Pasticceria_Nobile-San_Cataldo_Province_of_Lecce_Puglia.html"
+          }
+        ],
+        "spiagge": [
+          {
+            "nome": "Lido Soleluna",
+            "descrizione": "Beach club in San Cataldo.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/soleluna.lido/?locale=it_IT"
+          },
+          {
+            "nome": "Lido Turrisi",
+            "descrizione": "Suggested beach club for a day by the sea.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/lidoturrisi/?locale=it_IT"
+          },
+          {
+            "nome": "Lido Pevero",
+            "descrizione": "Equipped beach in the area.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/p/Lido-Pevero-Beach-100054544355712/?locale=it_IT"
+          }
+        ],
+        "supermercati": [
+          {
+            "nome": "Blu Market Margherita Conad",
+            "descrizione": "Supermarket for everyday shopping.",
+            "distanza": "San Cataldo",
+            "url": "https://share.google/eUWesuGWoqXmHPr0S"
+          }
+        ],
+        "farmacie": [
+          {
+            "nome": "On-duty pharmacy",
+            "descrizione": "Check the service to find the pharmacy currently available.",
+            "distanza": "Lecce / San Cataldo area",
+            "url": "https://www.farmaciediturno.org/farmacia.asp?idf=-1011"
+          }
+        ],
+        "luoghi": [
+          {
+            "nome": "Lecce",
+            "descrizione": "Baroque historic centre, narrow streets, squares and typical restaurants.",
+            "distanza": "13 km"
+          },
+          {
+            "nome": "Otranto",
+            "descrizione": "Seaside town with old centre, castle and panoramic walk.",
+            "distanza": "Worth visiting"
+          },
+          {
+            "nome": "Gallipoli",
+            "descrizione": "Historic centre by the sea, beaches and lively atmosphere.",
+            "distanza": "Worth visiting"
+          }
+        ]
+      },
+      "checkoutInfo": {
+        "orario": "By 10:00 AM",
+        "azioni": [
+          "Gather the used towels.",
+          "Dispose of the rubbish.",
+          "Turn off lights, air conditioning and appliances.",
+          "Check that you have not forgotten personal belongings."
+        ],
+        "chiavi": "Follow the host instructions for returning the keys.",
+        "messaggio": "Thank you for choosing Macalù Home. We hope to welcome you again soon in Salento."
+      },
+      "numeriUtili": [
+        {
+          "nome": "Emergency",
+          "telefono": "112"
+        },
+        {
+          "nome": "Medical emergency",
+          "telefono": "118"
+        },
+        {
+          "nome": "Fire brigade",
+          "telefono": "115"
+        }
+      ]
+    },
+    "fr": {
+      "htmlLang": "fr",
+      "title": "Démo guide invités",
+      "descrizione": "Située dans la belle localité de San Cataldo, Macalù Home vous accueille avec son confort et son atmosphère méditerranéenne. À seulement 700 mètres de la mer et à 13 km du centre de Lecce, la maison est un point de départ idéal pour découvrir la région. Elle dispose aussi d'une cour privée avec des jeux pour enfants, parfaite pour les familles qui souhaitent se détendre.",
+      "benvenuto": "Bienvenue dans la démo de Macalù Home. Cette page montre l'apparence d'un guide numérique pour voyageurs, avec contacts, adresse précise et mot de passe Wi-Fi remplacés par des données d'exemple.",
+      "checkin": "À partir de 16:00",
+      "checkout": "Avant 10:00",
+      "parcheggio": "Stationnement gratuit dans la rue.",
+      "heroCardTitle": "Informations rapides",
+      "quickInfoTitle": "Informations rapides",
+      "wifiTitle": "Wi-Fi",
+      "rulesTitle": "Règles de la maison",
+      "instructionsTitle": "Comment utiliser la maison",
+      "locationTitle": "Où nous sommes",
+      "tipsTitle": "Conseils locaux",
+      "checkoutTitle": "Avant le départ",
+      "numbersTitle": "Numéros utiles",
+      "footerMessage": "Ceci est une page exemple avec les données sensibles masquées.",
+      "labels": {
+        "checkin": "Arrivée",
+        "checkout": "Départ",
+        "wifi": "Wi-Fi",
+        "wifiNetwork": "Réseau Wi-Fi démo",
+        "address": "Adresse",
+        "parking": "Stationnement",
+        "host": "Contact hôte démo",
+        "phone": "Téléphone",
+        "email": "Email",
+        "copyPassword": "Copier le mot de passe",
+        "passwordCopied": "Mot de passe copié",
+        "copyFallback": "Sélectionnez et copiez le mot de passe manuellement",
+        "whatsapp": "WhatsApp hôte",
+        "maps": "Google Maps",
+        "openLink": "Ouvrir le lien",
+        "officialSite": "Site officiel"
+      },
+      "mediaSections": [
+        {
+          "asset": "welcomeImage",
+          "title": "Un accueil simple et chaleureux dans le Salento",
+          "text": "Une maison pensée pour ralentir, partager des moments sur la véranda et profiter du séjour en toute tranquillité.",
+          "alt": "Table dressée avec des produits locaux à Macalù Home"
+        },
+        {
+          "asset": "homeImage",
+          "title": "Le confort essentiel pour bien se reposer",
+          "text": "Des espaces soignés, du linge prêt et tout le nécessaire pour se sentir immédiatement chez soi.",
+          "alt": "Chambre préparée pour les hôtes de Macalù Home"
+        }
+      ],
+      "regole": [
+        "Chaque hôte doit obligatoirement être enregistré auprès de l'autorité de police compétente. L'absence d'enregistrement préalable peut compromettre l'accès à l'appartement.",
+        "Il est permis de fumer uniquement sur les balcons et dans les espaces extérieurs de l'appartement.",
+        "Un supplément de 50 euros sera facturé pour la vaisselle laissée sale au départ. Un supplément de 50 euros sera facturé si les déchets ne sont pas jetés au départ.",
+        "La réservation comprend un jeu complet de linge et trois serviettes pour chaque hôte. Aucun changement supplémentaire n'est inclus dans le prix de base. Du linge supplémentaire est disponible sur demande au coût de 10 euros par hôte."
+      ],
+      "istruzioniCasa": [
+        {
+          "titolo": "Climatisation",
+          "testo": "Il n'y a pas de limitation particulière. Nous vous demandons simplement, si possible, de ne pas la laisser allumée lorsque vous n'êtes pas à la maison."
+        },
+        {
+          "titolo": "Cuisine",
+          "testo": "Vous pouvez utiliser librement la cuisine, la plaque de cuisson et la vaisselle. Après utilisation, merci de laisser propres le plan de travail, l'évier et la vaisselle principale."
+        },
+        {
+          "titolo": "Lave-linge",
+          "testo": "Le lave-linge est à disposition des hôtes. Utilisez des charges adaptées et vérifiez qu'aucun vêtement ne reste dans le tambour à la fin du cycle."
+        },
+        {
+          "titolo": "TV",
+          "testo": "Utilisez la télécommande avec soin et laissez les appareils branchés comme vous les avez trouvés. Contactez-nous en cas de besoin."
+        },
+        {
+          "titolo": "Tri des déchets",
+          "testo": "Merci de trier les déchets en utilisant les conteneurs dédiés mis à disposition."
+        },
+        {
+          "titolo": "Installation électrique",
+          "testo": "Évitez d'allumer simultanément plusieurs appareils à forte consommation, comme la climatisation, la plaque à induction, le micro-ondes, le lave-linge ou le sèche-cheveux, afin d'éviter les coupures dues à une surcharge."
+        },
+        {
+          "titolo": "Heures de silence",
+          "testo": "Le règlement de l'immeuble demande de respecter le silence de 15:00 à 17:00 et de 23:00 à 07:00."
+        }
+      ],
+      "zona": {
+        "descrizione": "L'emplacement indiqué est approximatif. Dans le guide réel, les voyageurs voient l'adresse complète et les indications précises."
+      },
+      "categoryLabels": {
+        "ristoranti": "Restaurants",
+        "bar": "Bars et petits déjeuners",
+        "spiagge": "Plages",
+        "supermercati": "Supermarchés",
+        "farmacie": "Pharmacies",
+        "luoghi": "Lieux à visiter"
+      },
+      "consigli": {
+        "ristoranti": [
+          {
+            "nome": "Ristorante York / Lido York",
+            "descrizione": "Restaurant en bord de mer avec cuisine méditerranéenne et plats de poisson.",
+            "distanza": "San Cataldo",
+            "url": "https://www.lidoyork.it/ristorante/"
+          },
+          {
+            "nome": "Maremosso",
+            "descrizione": "Osteria de poisson à San Cataldo.",
+            "distanza": "San Cataldo",
+            "url": "https://www.tripadvisor.it/Restaurant_Review-g1179337-d6676147-Reviews-Maremosso-San_Cataldo_Province_of_Lecce_Puglia.html"
+          },
+          {
+            "nome": "La Casa Blanca - Fish, Wine & Friends",
+            "descrizione": "Restaurant de poisson et trattoria de bord de mer.",
+            "distanza": "San Cataldo",
+            "url": "https://lacasablanca.eatbu.com/"
+          },
+          {
+            "nome": "Ristorante Porto Adriano",
+            "descrizione": "Restaurant de poisson conseillé dans la zone.",
+            "distanza": "San Cataldo",
+            "url": "https://portoadriano.it/"
+          }
+        ],
+        "bar": [
+          {
+            "nome": "Pasticceria Nobile",
+            "descrizione": "Petit déjeuner, pâtisserie et glacier.",
+            "distanza": "San Cataldo",
+            "url": "https://www.tripadvisor.it/Restaurant_Review-g1179337-d3452856-Reviews-Pasticceria_Nobile-San_Cataldo_Province_of_Lecce_Puglia.html"
+          }
+        ],
+        "spiagge": [
+          {
+            "nome": "Lido Soleluna",
+            "descrizione": "Établissement balnéaire à San Cataldo.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/soleluna.lido/?locale=it_IT"
+          },
+          {
+            "nome": "Lido Turrisi",
+            "descrizione": "Lido conseillé pour une journée à la mer.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/lidoturrisi/?locale=it_IT"
+          },
+          {
+            "nome": "Lido Pevero",
+            "descrizione": "Plage équipée dans la zone.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/p/Lido-Pevero-Beach-100054544355712/?locale=it_IT"
+          }
+        ],
+        "supermercati": [
+          {
+            "nome": "Blu Market Margherita Conad",
+            "descrizione": "Supermarché pour les courses quotidiennes.",
+            "distanza": "San Cataldo",
+            "url": "https://share.google/eUWesuGWoqXmHPr0S"
+          }
+        ],
+        "farmacie": [
+          {
+            "nome": "Pharmacie de garde",
+            "descrizione": "Consultez le service pour vérifier la pharmacie disponible.",
+            "distanza": "Zone Lecce / San Cataldo",
+            "url": "https://www.farmaciediturno.org/farmacia.asp?idf=-1011"
+          }
+        ],
+        "luoghi": [
+          {
+            "nome": "Lecce",
+            "descrizione": "Centre historique baroque, ruelles, places et restaurants typiques.",
+            "distanza": "13 km"
+          },
+          {
+            "nome": "Otranto",
+            "descrizione": "Ville en bord de mer avec centre historique, château et promenade panoramique.",
+            "distanza": "À visiter"
+          },
+          {
+            "nome": "Gallipoli",
+            "descrizione": "Centre historique sur la mer, plages et atmosphère animée.",
+            "distanza": "À visiter"
+          }
+        ]
+      },
+      "checkoutInfo": {
+        "orario": "Avant 10:00",
+        "azioni": [
+          "Rassembler les serviettes utilisées.",
+          "Jeter les déchets.",
+          "Éteindre les lumières, la climatisation et les appareils.",
+          "Vérifier de ne pas oublier d'effets personnels."
+        ],
+        "chiavi": "Suivez les indications de l'hôte pour la restitution des clés.",
+        "messaggio": "Merci d'avoir choisi Macalù Home. Nous espérons vous revoir bientôt dans le Salento."
+      },
+      "numeriUtili": [
+        {
+          "nome": "Urgences",
+          "telefono": "112"
+        },
+        {
+          "nome": "Urgence médicale",
+          "telefono": "118"
+        },
+        {
+          "nome": "Pompiers",
+          "telefono": "115"
+        }
+      ]
+    },
+    "de": {
+      "htmlLang": "de",
+      "title": "Demo Gästeguide",
+      "descrizione": "Macalù Home liegt im schönen Küstenort San Cataldo und empfängt Sie mit Komfort und mediterraner Atmosphäre. Nur 700 Meter vom Meer und 13 km vom Zentrum von Lecce entfernt, ist es ein idealer Ausgangspunkt, um die Umgebung zu entdecken. Der private Innenhof mit Kinderspielen macht das Haus besonders angenehm für Familien, die Entspannung und gemeinsame Zeit suchen.",
+      "benvenuto": "Willkommen in der Macalù Home Demo. Diese Seite zeigt, wie ein digitaler Gästeguide aussieht; Kontakte, genaue Adresse und WLAN-Passwort wurden durch Beispieldaten ersetzt.",
+      "checkin": "Ab 16:00 Uhr",
+      "checkout": "Bis 10:00 Uhr",
+      "parcheggio": "Kostenloses Parken an der Straße.",
+      "heroCardTitle": "Kurzinfos",
+      "quickInfoTitle": "Kurzinfos",
+      "wifiTitle": "WLAN",
+      "rulesTitle": "Hausregeln",
+      "instructionsTitle": "So nutzen Sie das Haus",
+      "locationTitle": "Wo wir sind",
+      "tipsTitle": "Tipps in der Umgebung",
+      "checkoutTitle": "Vor dem Check-out",
+      "numbersTitle": "Nützliche Nummern",
+      "footerMessage": "Dies ist eine Beispielseite mit ausgeblendeten sensiblen Daten.",
+      "labels": {
+        "checkin": "Check-in",
+        "checkout": "Check-out",
+        "wifi": "WLAN",
+        "wifiNetwork": "Demo-WLAN-Netz",
+        "address": "Adresse",
+        "parking": "Parken",
+        "host": "Demo Gastgeberkontakt",
+        "phone": "Telefon",
+        "email": "E-Mail",
+        "copyPassword": "Passwort kopieren",
+        "passwordCopied": "Passwort kopiert",
+        "copyFallback": "Bitte Passwort manuell auswählen und kopieren",
+        "whatsapp": "WhatsApp Gastgeber",
+        "maps": "Google Maps",
+        "openLink": "Link öffnen",
+        "officialSite": "Offizielle Website"
+      },
+      "mediaSections": [
+        {
+          "asset": "welcomeImage",
+          "title": "Ein warmer, einfacher Willkommensmoment im Salento",
+          "text": "Ein Zuhause zum Entschleunigen, für gemeinsame Momente auf der Veranda und einen entspannten Aufenthalt.",
+          "alt": "Gedeckter Tisch mit lokalen Produkten im Macalù Home"
+        },
+        {
+          "asset": "homeImage",
+          "title": "Wesentlicher Komfort für gute Erholung",
+          "text": "Gepflegte Räume, vorbereitete Bettwäsche und alles, was Sie brauchen, um sich sofort zu Hause zu fühlen.",
+          "alt": "Für Gäste vorbereitetes Schlafzimmer im Macalù Home"
+        }
+      ],
+      "regole": [
+        "Jeder Gast muss verpflichtend bei der zuständigen Polizeibehörde registriert werden. Ohne vorherige Registrierung kann der Zugang zur Wohnung beeinträchtigt werden.",
+        "Rauchen ist ausschließlich auf den Balkonen und in den Außenbereichen der Wohnung erlaubt.",
+        "Für schmutzig hinterlassenes Geschirr beim Check-out wird ein Zuschlag von 50 Euro berechnet. Wenn der Müll beim Check-out nicht entsorgt wurde, wird ebenfalls ein Zuschlag von 50 Euro berechnet.",
+        "Die Buchung beinhaltet ein vollständiges Bettwäsche-Set und drei Handtücher pro Gast. Weitere Wechsel sind nicht im Grundpreis enthalten. Zusätzliche Wäsche ist auf Anfrage gegen einen Aufpreis von 10 Euro pro Gast erhältlich."
+      ],
+      "istruzioniCasa": [
+        {
+          "titolo": "Klimaanlage",
+          "testo": "Es gibt keine besonderen Einschränkungen. Bitte lassen Sie sie nach Möglichkeit nicht eingeschaltet, wenn Sie nicht im Haus sind."
+        },
+        {
+          "titolo": "Küche",
+          "testo": "Sie können Küche, Kochfeld und Geschirr frei nutzen. Bitte hinterlassen Sie Arbeitsfläche, Spüle und das wichtigste Geschirr nach der Nutzung sauber."
+        },
+        {
+          "titolo": "Waschmaschine",
+          "testo": "Die Waschmaschine steht Gästen zur Verfügung. Bitte verwenden Sie angemessene Füllmengen und prüfen Sie nach dem Waschgang, dass keine Kleidung in der Trommel bleibt."
+        },
+        {
+          "titolo": "TV",
+          "testo": "Bitte verwenden Sie die Fernbedienung sorgfältig und lassen Sie die Geräte so angeschlossen, wie Sie sie vorgefunden haben. Kontaktieren Sie uns bei Problemen."
+        },
+        {
+          "titolo": "Mülltrennung",
+          "testo": "Bitte trennen Sie den Müll und nutzen Sie die dafür vorgesehenen Behälter im Haus."
+        },
+        {
+          "titolo": "Elektrische Anlage",
+          "testo": "Vermeiden Sie es, mehrere stromintensive Geräte gleichzeitig einzuschalten, zum Beispiel Klimaanlage, Induktionskochfeld, Mikrowelle, Waschmaschine oder Haartrockner, um Stromunterbrechungen durch Überlastung zu vermeiden."
+        },
+        {
+          "titolo": "Ruhezeiten",
+          "testo": "Die Hausordnung schreibt Ruhezeiten von 15:00 bis 17:00 Uhr und von 23:00 bis 07:00 Uhr vor."
+        }
+      ],
+      "zona": {
+        "descrizione": "Der angezeigte Standort ist ungefähr. Im echten Guide sehen Gäste die vollständige Adresse und genaue Wegbeschreibung."
+      },
+      "categoryLabels": {
+        "ristoranti": "Restaurants",
+        "bar": "Bars und Frühstück",
+        "spiagge": "Strände",
+        "supermercati": "Supermärkte",
+        "farmacie": "Apotheken",
+        "luoghi": "Sehenswerte Orte"
+      },
+      "consigli": {
+        "ristoranti": [
+          {
+            "nome": "Ristorante York / Lido York",
+            "descrizione": "Restaurant am Meer mit mediterraner Küche und Fischgerichten.",
+            "distanza": "San Cataldo",
+            "url": "https://www.lidoyork.it/ristorante/"
+          },
+          {
+            "nome": "Maremosso",
+            "descrizione": "Fisch-Osteria in San Cataldo.",
+            "distanza": "San Cataldo",
+            "url": "https://www.tripadvisor.it/Restaurant_Review-g1179337-d6676147-Reviews-Maremosso-San_Cataldo_Province_of_Lecce_Puglia.html"
+          },
+          {
+            "nome": "La Casa Blanca - Fish, Wine & Friends",
+            "descrizione": "Fischrestaurant und Trattoria am Meer.",
+            "distanza": "San Cataldo",
+            "url": "https://lacasablanca.eatbu.com/"
+          },
+          {
+            "nome": "Ristorante Porto Adriano",
+            "descrizione": "Empfohlenes Fischrestaurant in der Umgebung.",
+            "distanza": "San Cataldo",
+            "url": "https://portoadriano.it/"
+          }
+        ],
+        "bar": [
+          {
+            "nome": "Pasticceria Nobile",
+            "descrizione": "Frühstück, Konditorei und Eis.",
+            "distanza": "San Cataldo",
+            "url": "https://www.tripadvisor.it/Restaurant_Review-g1179337-d3452856-Reviews-Pasticceria_Nobile-San_Cataldo_Province_of_Lecce_Puglia.html"
+          }
+        ],
+        "spiagge": [
+          {
+            "nome": "Lido Soleluna",
+            "descrizione": "Strandbad in San Cataldo.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/soleluna.lido/?locale=it_IT"
+          },
+          {
+            "nome": "Lido Turrisi",
+            "descrizione": "Empfohlenes Lido für einen Tag am Meer.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/lidoturrisi/?locale=it_IT"
+          },
+          {
+            "nome": "Lido Pevero",
+            "descrizione": "Ausgestatteter Strand in der Umgebung.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/p/Lido-Pevero-Beach-100054544355712/?locale=it_IT"
+          }
+        ],
+        "supermercati": [
+          {
+            "nome": "Blu Market Margherita Conad",
+            "descrizione": "Supermarkt für den täglichen Einkauf.",
+            "distanza": "San Cataldo",
+            "url": "https://share.google/eUWesuGWoqXmHPr0S"
+          }
+        ],
+        "farmacie": [
+          {
+            "nome": "Notdienst-Apotheke",
+            "descrizione": "Prüfen Sie den Dienst, um die aktuell verfügbare Apotheke zu finden.",
+            "distanza": "Lecce / San Cataldo",
+            "url": "https://www.farmaciediturno.org/farmacia.asp?idf=-1011"
+          }
+        ],
+        "luoghi": [
+          {
+            "nome": "Lecce",
+            "descrizione": "Barocke Altstadt, Gassen, Plätze und typische Restaurants.",
+            "distanza": "13 km"
+          },
+          {
+            "nome": "Otranto",
+            "descrizione": "Küstenort mit Altstadt, Burg und Panoramapromenade.",
+            "distanza": "Sehenswert"
+          },
+          {
+            "nome": "Gallipoli",
+            "descrizione": "Altstadt am Meer, Strände und lebendige Atmosphäre.",
+            "distanza": "Sehenswert"
+          }
+        ]
+      },
+      "checkoutInfo": {
+        "orario": "Bis 10:00 Uhr",
+        "azioni": [
+          "Benutzte Handtücher sammeln.",
+          "Müll entsorgen.",
+          "Lichter, Klimaanlage und Geräte ausschalten.",
+          "Prüfen, dass keine persönlichen Gegenstände vergessen wurden."
+        ],
+        "chiavi": "Folgen Sie den Anweisungen des Gastgebers zur Rückgabe der Schlüssel.",
+        "messaggio": "Danke, dass Sie Macalù Home gewählt haben. Wir hoffen, Sie bald wieder im Salento begrüßen zu dürfen."
+      },
+      "numeriUtili": [
+        {
+          "nome": "Notruf",
+          "telefono": "112"
+        },
+        {
+          "nome": "Medizinischer Notfall",
+          "telefono": "118"
+        },
+        {
+          "nome": "Feuerwehr",
+          "telefono": "115"
+        }
+      ]
+    },
+    "es": {
+      "htmlLang": "es",
+      "title": "Demo guía para huéspedes",
+      "descrizione": "Situada en la hermosa localidad de San Cataldo, Macalù Home te da la bienvenida con sus comodidades y su encanto mediterráneo. A solo 700 metros del mar y a 13 km del centro de Lecce, es una base ideal para explorar la zona. La casa cuenta también con un patio privado con juegos para niños, perfecto para familias que buscan relax y momentos sencillos juntos.",
+      "benvenuto": "Bienvenido a la demo de Macalù Home. Esta página muestra cómo se ve una guía digital para huéspedes, con contactos, dirección exacta y contraseña Wi-Fi sustituidos por datos de ejemplo.",
+      "checkin": "Desde las 16:00",
+      "checkout": "Antes de las 10:00",
+      "parcheggio": "Aparcamiento gratuito en la calle.",
+      "heroCardTitle": "Información rápida",
+      "quickInfoTitle": "Información rápida",
+      "wifiTitle": "Wi-Fi",
+      "rulesTitle": "Normas de la casa",
+      "instructionsTitle": "Cómo usar la casa",
+      "locationTitle": "Dónde estamos",
+      "tipsTitle": "Consejos locales",
+      "checkoutTitle": "Antes del check-out",
+      "numbersTitle": "Números útiles",
+      "footerMessage": "Esta es una página de ejemplo con datos sensibles ocultos.",
+      "labels": {
+        "checkin": "Check-in",
+        "checkout": "Check-out",
+        "wifi": "Wi-Fi",
+        "wifiNetwork": "Red Wi-Fi demo",
+        "address": "Dirección",
+        "parking": "Aparcamiento",
+        "host": "Contacto anfitrión demo",
+        "phone": "Teléfono",
+        "email": "Email",
+        "copyPassword": "Copiar contraseña",
+        "passwordCopied": "Contraseña copiada",
+        "copyFallback": "Selecciona y copia manualmente la contraseña",
+        "whatsapp": "WhatsApp anfitrión",
+        "maps": "Google Maps",
+        "openLink": "Abrir enlace",
+        "officialSite": "Sitio oficial"
+      },
+      "mediaSections": [
+        {
+          "asset": "welcomeImage",
+          "title": "Una bienvenida sencilla y cálida del Salento",
+          "text": "Una casa pensada para bajar el ritmo, compartir momentos en la veranda y disfrutar de la estancia con calma.",
+          "alt": "Mesa preparada con productos locales en Macalù Home"
+        },
+        {
+          "asset": "homeImage",
+          "title": "Comodidad esencial para descansar bien",
+          "text": "Espacios cuidados, ropa de cama lista y todo lo necesario para sentirse en casa desde el primer momento.",
+          "alt": "Dormitorio preparado para los huéspedes de Macalù Home"
+        }
+      ],
+      "regole": [
+        "Cada huésped deberá ser registrado obligatoriamente ante la autoridad policial competente. La falta de registro previo puede comprometer el acceso al apartamento.",
+        "Está permitido fumar solo y exclusivamente en los balcones y en los espacios exteriores del apartamento.",
+        "Se cobrará un suplemento de 50 euros por platos y utensilios dejados sucios en el check-out. Se cobrará un suplemento de 50 euros si la basura no se tira en el check-out.",
+        "La reserva incluye un juego completo de ropa de cama y tres toallas por cada huésped. No se incluyen cambios adicionales en el precio base. Si necesitáis más ropa de cama o toallas, está disponible bajo petición con un coste adicional de 10 euros por huésped."
+      ],
+      "istruzioniCasa": [
+        {
+          "titolo": "Aire acondicionado",
+          "testo": "No hay limitaciones particulares. Os pedimos, si es posible, que no lo dejéis encendido cuando no estéis en casa."
+        },
+        {
+          "titolo": "Cocina",
+          "testo": "Podéis usar libremente la cocina, la placa y la vajilla. Después de usarla, dejad limpios la encimera, el fregadero y los utensilios principales."
+        },
+        {
+          "titolo": "Lavadora",
+          "testo": "La lavadora está a disposición de los huéspedes. Usad cargas adecuadas y comprobad que no quede ropa dentro al final del ciclo."
+        },
+        {
+          "titolo": "TV",
+          "testo": "Usad el mando con cuidado y dejad los dispositivos conectados como los encontrasteis. Contactadnos si necesitáis ayuda."
+        },
+        {
+          "titolo": "Recogida selectiva",
+          "testo": "Separad los residuos utilizando los contenedores dedicados que hay en la casa."
+        },
+        {
+          "titolo": "Instalación eléctrica",
+          "testo": "Evitad encender simultáneamente varios electrodomésticos de alto consumo, como aire acondicionado, placa de inducción, microondas, lavadora o secador, para evitar cortes por sobrecarga."
+        },
+        {
+          "titolo": "Horario de silencio",
+          "testo": "Las normas del edificio exigen respetar el silencio de 15:00 a 17:00 y de 23:00 a 07:00."
+        }
+      ],
+      "zona": {
+        "descrizione": "La ubicación mostrada es aproximada. En la guía real, los huéspedes ven la dirección completa y las indicaciones precisas."
+      },
+      "categoryLabels": {
+        "ristoranti": "Restaurantes",
+        "bar": "Bares y desayunos",
+        "spiagge": "Playas",
+        "supermercati": "Supermercados",
+        "farmacie": "Farmacias",
+        "luoghi": "Lugares que visitar"
+      },
+      "consigli": {
+        "ristoranti": [
+          {
+            "nome": "Ristorante York / Lido York",
+            "descrizione": "Restaurante frente al mar con cocina mediterránea y platos de pescado.",
+            "distanza": "San Cataldo",
+            "url": "https://www.lidoyork.it/ristorante/"
+          },
+          {
+            "nome": "Maremosso",
+            "descrizione": "Osteria de pescado en San Cataldo.",
+            "distanza": "San Cataldo",
+            "url": "https://www.tripadvisor.it/Restaurant_Review-g1179337-d6676147-Reviews-Maremosso-San_Cataldo_Province_of_Lecce_Puglia.html"
+          },
+          {
+            "nome": "La Casa Blanca - Fish, Wine & Friends",
+            "descrizione": "Restaurante de pescado y trattoria de mar.",
+            "distanza": "San Cataldo",
+            "url": "https://lacasablanca.eatbu.com/"
+          },
+          {
+            "nome": "Ristorante Porto Adriano",
+            "descrizione": "Restaurante de pescado recomendado en la zona.",
+            "distanza": "San Cataldo",
+            "url": "https://portoadriano.it/"
+          }
+        ],
+        "bar": [
+          {
+            "nome": "Pasticceria Nobile",
+            "descrizione": "Desayuno, pastelería y heladería.",
+            "distanza": "San Cataldo",
+            "url": "https://www.tripadvisor.it/Restaurant_Review-g1179337-d3452856-Reviews-Pasticceria_Nobile-San_Cataldo_Province_of_Lecce_Puglia.html"
+          }
+        ],
+        "spiagge": [
+          {
+            "nome": "Lido Soleluna",
+            "descrizione": "Establecimiento de playa en San Cataldo.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/soleluna.lido/?locale=it_IT"
+          },
+          {
+            "nome": "Lido Turrisi",
+            "descrizione": "Lido recomendado para pasar un día junto al mar.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/lidoturrisi/?locale=it_IT"
+          },
+          {
+            "nome": "Lido Pevero",
+            "descrizione": "Playa equipada en la zona.",
+            "distanza": "San Cataldo",
+            "url": "https://www.facebook.com/p/Lido-Pevero-Beach-100054544355712/?locale=it_IT"
+          }
+        ],
+        "supermercati": [
+          {
+            "nome": "Blu Market Margherita Conad",
+            "descrizione": "Supermercado para la compra diaria.",
+            "distanza": "San Cataldo",
+            "url": "https://share.google/eUWesuGWoqXmHPr0S"
+          }
+        ],
+        "farmacie": [
+          {
+            "nome": "Farmacia de guardia",
+            "descrizione": "Consulta el servicio para verificar la farmacia disponible.",
+            "distanza": "Zona Lecce / San Cataldo",
+            "url": "https://www.farmaciediturno.org/farmacia.asp?idf=-1011"
+          }
+        ],
+        "luoghi": [
+          {
+            "nome": "Lecce",
+            "descrizione": "Centro histórico barroco, callejuelas, plazas y restaurantes típicos.",
+            "distanza": "13 km"
+          },
+          {
+            "nome": "Otranto",
+            "descrizione": "Pueblo junto al mar con centro histórico, castillo y paseo panorámico.",
+            "distanza": "Para visitar"
+          },
+          {
+            "nome": "Gallipoli",
+            "descrizione": "Centro histórico sobre el mar, playas y ambiente animado.",
+            "distanza": "Para visitar"
+          }
+        ]
+      },
+      "checkoutInfo": {
+        "orario": "Antes de las 10:00",
+        "azioni": [
+          "Reunir las toallas usadas.",
+          "Tirar la basura.",
+          "Apagar luces, aire acondicionado y electrodomésticos.",
+          "Comprobar que no olvidáis objetos personales."
+        ],
+        "chiavi": "Sigue las indicaciones del anfitrión para devolver las llaves.",
+        "messaggio": "Gracias por elegir Macalù Home. Esperamos volver a veros pronto en el Salento."
+      },
+      "numeriUtili": [
+        {
+          "nome": "Emergencias",
+          "telefono": "112"
+        },
+        {
+          "nome": "Emergencia médica",
+          "telefono": "118"
+        },
+        {
+          "nome": "Bomberos",
+          "telefono": "115"
+        }
+      ]
+    }
+  }
+}
