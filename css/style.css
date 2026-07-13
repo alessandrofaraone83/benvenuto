@@ -12,8 +12,8 @@
   --color-line: rgba(50, 22, 6, 0.14);
   --shadow: 0 22px 60px rgba(50, 22, 6, 0.1);
   --shadow-strong: 0 30px 90px rgba(50, 22, 6, 0.26);
-  --font-base: "BodoniXT", "Bodoni XT", Georgia, "Times New Roman", serif;
-  --font-display: "BodoniXT", "Bodoni XT", Georgia, "Times New Roman", serif;
+  --font-base: "Creato Display", Arial, Helvetica, sans-serif;
+  --font-display: "Creato Display", Arial, Helvetica, sans-serif;
   --space-1: 0.5rem;
   --space-2: 0.75rem;
   --space-3: 1rem;
@@ -27,21 +27,67 @@
 }
 
 @font-face {
-  font-family: "BodoniXT";
+  font-family: "Creato Display";
   src:
-    local("BodoniXT"),
-    url("../assets/fonts/BodoniXT.ttf") format("truetype");
+    local("Creato Display Regular"),
+    local("CreatoDisplay-Regular"),
+    url("../creato_display/CreatoDisplay-Regular.otf") format("opentype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Bodoni XT";
+  font-family: "Creato Display";
   src:
-    local("BodoniXT"),
-    url("../assets/fonts/BodoniXT.ttf") format("truetype");
+    local("Creato Display Medium"),
+    local("CreatoDisplay-Medium"),
+    url("../creato_display/CreatoDisplay-Medium.otf") format("opentype");
   font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Creato Display";
+  src:
+    local("Creato Display Bold"),
+    local("CreatoDisplay-Bold"),
+    url("../creato_display/CreatoDisplay-Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Creato Display";
+  src:
+    local("Creato Display ExtraBold"),
+    local("CreatoDisplay-ExtraBold"),
+    url("../creato_display/CreatoDisplay-ExtraBold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Creato Display";
+  src:
+    local("Creato Display Black"),
+    local("CreatoDisplay-Black"),
+    url("../creato_display/CreatoDisplay-Black.otf") format("opentype");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Creato Display";
+  src:
+    local("Creato Display Regular Italic"),
+    local("CreatoDisplay-RegularItalic"),
+    url("../creato_display/CreatoDisplay-RegularItalic.otf") format("opentype");
+  font-style: italic;
   font-weight: 400;
   font-display: swap;
 }
