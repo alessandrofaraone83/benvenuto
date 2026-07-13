@@ -130,7 +130,7 @@ p {
   left: 0;
   display: grid;
   width: 100%;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr;
   align-items: center;
   gap: var(--space-3);
   padding: var(--space-3);
@@ -173,6 +173,7 @@ p {
 
 .main-nav {
   display: none;
+  grid-area: 1 / 1;
   justify-self: center;
   align-items: center;
   gap: 0.25rem;
@@ -196,6 +197,7 @@ p {
 }
 
 .header-link {
+  grid-area: 1 / 1;
   justify-self: end;
   padding: 0.25rem 0.35rem 0.25rem 1rem;
   color: var(--color-ink);
@@ -265,8 +267,8 @@ p {
   position: absolute;
   z-index: 1;
   right: clamp(0.75rem, 4vw, 4rem);
-  bottom: 0.1em;
   left: clamp(0.75rem, 4vw, 4rem);
+  top: clamp(5.5rem, 9vw, 8rem);
   max-width: none;
   margin: 0;
   color: rgba(255, 250, 244, 0.95);
@@ -274,6 +276,7 @@ p {
   font-size: clamp(3rem, 8vw, 7rem);
   font-weight: 400;
   line-height: 0.9;
+  text-shadow: 0 18px 42px rgba(50, 22, 6, 0.26);
   text-transform: uppercase;
 }
 
@@ -675,9 +678,15 @@ p {
   min-height: 52px;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(255, 247, 235, 0.32);
+  border: 0;
   border-radius: 999px;
+  background: var(--color-cream-deep);
+  box-shadow: 0 16px 32px rgba(50, 22, 6, 0.2);
   font-weight: 400;
+}
+
+.quote-cta .email-link {
+  color: var(--color-ink);
 }
 
 .package-note {
@@ -1023,7 +1032,6 @@ p {
 
 @media (min-width: 720px) {
   .site-header {
-    grid-template-columns: 1fr auto 1fr;
     padding: var(--space-4) var(--space-5);
   }
 
