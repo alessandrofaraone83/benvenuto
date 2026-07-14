@@ -10,6 +10,7 @@
       (function () {
         var assetBase = window.location.protocol === "file:" ? "" : "/";
         window.__benvenutoAssetBase = assetBase;
+        document.write('<link rel="icon" type="image/svg+xml" href="' + assetBase + 'favicon.svg?v=20260714-1">');
         document.write('<link rel="stylesheet" href="' + assetBase + 'css/style.css?v=20260713-2">');
       })();
     </script>
