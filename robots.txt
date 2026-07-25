@@ -1,3 +1,5 @@
 User-agent: *
 Disallow: /cliente.html
 Disallow: /clienti/
+
+Sitemap: https://www.benvenutodigitale.it/sitemap.xml

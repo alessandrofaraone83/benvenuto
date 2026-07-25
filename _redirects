@@ -1,1 +1,2 @@
-/clienti/* /cliente 200
+https://benvenutodigitale.it/* https://www.benvenutodigitale.it/:splat 301
+/clienti/* /cliente.html 200

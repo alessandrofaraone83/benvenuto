@@ -121,9 +121,25 @@ a {
   text-decoration: none;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--color-ink);
+  outline-offset: 4px;
+}
+
+.landing-hero a:focus-visible,
+.quote-cta a:focus-visible,
+.client-hero a:focus-visible,
+.client-hero button:focus-visible,
+.client-footer a:focus-visible,
+.footer a:focus-visible {
+  outline-color: var(--color-cream-deep);
+}
+
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 h1,
@@ -635,6 +651,11 @@ p {
 
 .package-image {
   margin: var(--space-2) 0 var(--space-3);
+}
+
+.package-image img,
+.package-image picture {
+  display: block;
 }
 
 .package-image img {

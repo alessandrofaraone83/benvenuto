@@ -3,10 +3,50 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Benvenuto Digitale crea guide digitali personalizzate per case vacanze, B&B e affitti brevi, sempre disponibili tramite QR Code.">
-    <title>Benvenuto Digitale | Guide digitali per ospiti</title>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=20260714-1">
-    <link rel="stylesheet" href="css/style.css?v=20260713-2">
+    <meta name="description" content="Benvenuto Digitale crea pagine di benvenuto digitali per case vacanze, B&B e strutture ricettive, consultabili dagli ospiti tramite QR Code.">
+    <meta property="og:title" content="Benvenuto Digitale | Welcome page per strutture ricettive">
+    <meta property="og:description" content="Pagine di benvenuto digitali per case vacanze, B&B e strutture ricettive: tutte le informazioni utili per gli ospiti in un unico spazio.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.benvenutodigitale.it/">
+    <meta property="og:image" content="https://www.benvenutodigitale.it/assets/img/social-card.jpg">
+    <meta property="og:image:alt" content="Benvenuto Digitale, welcome page per strutture ricettive">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:site_name" content="Benvenuto Digitale">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Benvenuto Digitale | Welcome page per strutture ricettive">
+    <meta name="twitter:description" content="Pagine di benvenuto digitali per case vacanze, B&B e strutture ricettive.">
+    <meta name="twitter:image" content="https://www.benvenutodigitale.it/assets/img/social-card.jpg">
+    <link rel="canonical" href="https://www.benvenutodigitale.it/">
+    <link rel="preload" as="image" href="assets/img/landing-hero.jpg" fetchpriority="high">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=20260725-1">
+    <link rel="stylesheet" href="css/style.css?v=20260725-1">
+    <title>Benvenuto Digitale | Guide digitali per case vacanze e B&B</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.benvenutodigitale.it/#service",
+        "name": "Benvenuto Digitale",
+        "url": "https://www.benvenutodigitale.it/",
+        "description": "Creazione di pagine di benvenuto digitali per case vacanze, B&B e strutture ricettive.",
+        "image": "https://www.benvenutodigitale.it/assets/img/social-card.jpg",
+        "logo": "https://www.benvenutodigitale.it/favicon.svg",
+        "email": "mailto:alessandro.faraone1@gmail.com",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+393287773569",
+          "contactType": "customer support",
+          "availableLanguage": "Italian"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Italia"
+        }
+      }
+    </script>
+    <script src="js/site.js?v=20260725-1" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -16,17 +56,18 @@
         <a href="#include">Include</a>
         <a href="#pacchetti">Pacchetti</a>
       </nav>
-      <a class="header-link" href="https://benvenutodigitale.it/clienti/example" aria-label="Apri la demo Example">Demo <span>→</span></a>
+      <a class="header-link" href="https://www.benvenutodigitale.it/clienti/example" aria-label="Apri la demo Example" data-track-cta="demo">Demo <span>→</span></a>
     </header>
 
     <main>
       <section class="landing-hero">
+        <h1 class="hero-word">Benvenuto Digitale</h1>
         <div class="hero-content">
           <div class="hero-copy">
             <p class="eyebrow">Per case vacanze, B&B e affitti brevi</p>
             <p class="lead">La guida digitale personalizzata per accogliere meglio i tuoi ospiti.</p>
             <p>Trasformiamo le informazioni della tua casa vacanze in una pagina elegante, sempre disponibile tramite QR Code.</p>
-            <a class="button button-primary" href="https://wa.me/393287773569?text=Vorrei%20ricevere%20un%20preventivo%20personalizzato%20per%20Benvenuto%20Digitale">Richiedi una demo <span>→</span></a>
+            <a class="button button-primary" href="https://wa.me/393287773569?text=Vorrei%20ricevere%20un%20preventivo%20personalizzato%20per%20Benvenuto%20Digitale" target="_blank" rel="noopener" data-track-cta="preventivo" data-track-channel="whatsapp">Richiedi una demo <span>→</span></a>
           </div>
           <aside class="hero-preview" aria-label="Anteprima guida ospiti">
             <div class="preview-image"></div>
@@ -35,7 +76,6 @@
             <span>Wi-Fi, check-in, mappe e consigli locali in un unico link.</span>
           </aside>
         </div>
-        <h1 class="hero-word">Benvenuto Digitale</h1>
       </section>
 
       <section class="section intro-panel">
@@ -132,7 +172,10 @@
             <span class="package-label">Pacchetto PLUS</span>
             <h3>Pagina digitale, QR Code e portachiavi NFC</h3>
             <figure class="package-image">
-              <img src="assets/img/plus-portachiavi.jpg" alt="Esempio di portachiavi personalizzato Macalù Home con tecnologia NFC" loading="lazy">
+              <picture>
+                <source srcset="assets/img/plus-portachiavi.webp" type="image/webp">
+                <img src="assets/img/plus-portachiavi.jpg" alt="Esempio di portachiavi personalizzato Macalù Home con tecnologia NFC" width="920" height="1200" loading="lazy" decoding="async">
+              </picture>
               <figcaption>Esempio di portachiavi personalizzato</figcaption>
             </figure>
             <p>Il pacchetto PLUS include tutto ciò che è previsto nel pacchetto BASE, con in più un portachiavi dotato di tecnologia NFC.</p>
@@ -153,8 +196,8 @@
             <p>Scegli il canale che preferisci e ti risponderemo al più presto.</p>
           </div>
           <div class="quote-actions">
-            <a class="button button-primary whatsapp-button" href="https://wa.me/393287773569?text=Vorrei%20ricevere%20un%20preventivo%20personalizzato%20per%20Benvenuto%20Digitale" target="_blank" rel="noopener">WhatsApp <span>→</span></a>
-            <a class="email-link" href="mailto:alessandro.faraone1@gmail.com">Email</a>
+            <a class="button button-primary whatsapp-button" href="https://wa.me/393287773569?text=Vorrei%20ricevere%20un%20preventivo%20personalizzato%20per%20Benvenuto%20Digitale" target="_blank" rel="noopener" data-track-cta="preventivo" data-track-channel="whatsapp">WhatsApp <span>→</span></a>
+            <a class="email-link" href="mailto:alessandro.faraone1@gmail.com?subject=Preventivo%20Benvenuto%20Digitale" data-track-cta="preventivo" data-track-channel="email">Email</a>
           </div>
         </div>
         <aside class="package-note">
@@ -165,7 +208,7 @@
 
     <footer class="footer">
       <p>Benvenuto Digitale</p>
-      <a href="https://wa.me/393287773569?text=Vorrei%20ricevere%20un%20preventivo%20personalizzato%20per%20Benvenuto%20Digitale">Contatto WhatsApp</a>
+      <a href="https://wa.me/393287773569?text=Vorrei%20ricevere%20un%20preventivo%20personalizzato%20per%20Benvenuto%20Digitale" target="_blank" rel="noopener" data-track-cta="contatto" data-track-channel="whatsapp">Contatto WhatsApp</a>
     </footer>
   </body>
 </html>
